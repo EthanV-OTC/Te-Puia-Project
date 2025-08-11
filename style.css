@@ -1,5 +1,5 @@
 * {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .hero-image {
@@ -10,10 +10,34 @@
     background-size: cover;
 }
 .hero-text {
-    color:rgb(0, 0, 0);
+    color: white;
     position: absolute;
     text-align: center;
-    top: 205px;
+    top: 250px;
     width: 100%;
-    font-size: 4rem;
+    font-size: 5rem;
+}
+
+.link-column {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.link-1card {
+    background-image: url("./Images/20240626_102045.jpg");
+    max-width: 100%;
+
+}
+
+.link-2card {
+    background-image: url("./Images/20240626_104441.jpg");
+    max-width: 100%;
+
 }
