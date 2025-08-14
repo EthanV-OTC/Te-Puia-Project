@@ -1,43 +1,53 @@
 * {
+        font-family: 'cookie';
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.cookie-regular {
+    font-family: "Cookie", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+  
 
 .hero-image {
-    background-image: url("./Images/20240626_111235.jpg");
-    height: 700px;
+    background-image: url("./Images/20240626_111923.jpg");
+    height: 600px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
+    padding: 10px, 10px, 10px, 10px;
 }
 .hero-text {
-    color: white;
+    color: rgb(255, 255, 255);
     position: absolute;
     text-align: center;
-    top: 250px;
+    top: 220px;
     width: 100%;
-    font-size: 5rem;
+    font-size: 6rem;
+    font-family: "Cookie", cursive;
+}
+.hero-subtext {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    text-align: center;
+    top: 350px;
+    width: 100%;
+    font-size: 3rem;
+    font-family: "Cookie", cursive;
+    text-decoration: overline;
 }
 
-.link-column {
+.two-column {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 100px;
+    grid-template-columns: 1fr 3fr;
+    gap: 50px;
     width: 80%;
-    height: 400px;
     margin: auto;
     margin-top: 40px;
-    margin-bottom: 50px;
-    text-align: center;
 }
 
-.link-1card {
-    background-image: url("./Images/20240626_102045.jpg");
-    max-width: 100%;
-
-}
-
-.link-2card {
-    background-image: url("./Images/20240626_104441.jpg");
-    max-width: 100%;
-
+.info {
+    font-size: 1.25em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
