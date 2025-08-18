@@ -24,7 +24,7 @@
     text-align: center;
     top: 220px;
     width: 100%;
-    font-size: 6rem;
+    font-size: 7rem;
     font-family: "Cookie", cursive;
 }
 .hero-subtext {
@@ -33,7 +33,7 @@
     text-align: center;
     top: 350px;
     width: 100%;
-    font-size: 3rem;
+    font-size: 4rem;
     font-family: "Cookie", cursive;
     text-decoration: overline;
 }
@@ -47,7 +47,27 @@
     margin-top: 40px;
 }
 
-.info {
+.about-heading {
+    font-size: 1.5rem;
+}
+.about-info {
     font-size: 1.25em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.offering {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.offer-heading {
+    padding-top: 20px;
+    font-size: 1.5rem;
+}
+.offer-info {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+    font-size: 1.25rem;
 }
